@@ -1,0 +1,69 @@
+
+Association.groovy,290
+package com.bna.psg.ontopia;ontopia1,0
+import net.ontopia.topicmaps.core.TopicIF;TopicIF3,30
+import net.ontopia.topicmaps.core.AssociationIF;AssociationIF4,73
+import net.ontopia.topicmaps.core.AssociationRoleIF;AssociationRoleIF5,122
+class Association 10,238
+  Association(16,364
+
+AssociationRole.groovy,298
+package com.bna.psg.ontopia;ontopia1,0
+import net.ontopia.topicmaps.core.TopicIF;TopicIF3,30
+import net.ontopia.topicmaps.core.AssociationIF;AssociationIF4,73
+import net.ontopia.topicmaps.core.AssociationRoleIF;AssociationRoleIF5,122
+class AssociationRole 10,238
+  AssociationRole(15,305
+
+Occurrence.groovy,47
+class Occurrence 10,225
+   Occurrence(13,280
+
+QueryResults.groovy,571
+package com.bna.psg.ontopia;ontopia1,0
+import net.ontopia.topicmaps.core.TMObjectIF;TMObjectIF3,30
+import net.ontopia.topicmaps.core.TopicIF;TopicIF4,76
+import net.ontopia.topicmaps.core.TopicNameIF;TopicNameIF5,119
+import net.ontopia.topicmaps.core.OccurrenceIF;OccurrenceIF6,166
+import net.ontopia.topicmaps.query.core.QueryResultIF;QueryResultIF7,214
+import com.bna.psg.ontopia.Topic;Topic9,270
+import com.bna.psg.ontopia.Occurrence;Occurrence10,304
+class QueryResults Occurrence::QueryResults12,344
+  QueryResults(QueryResults::QueryResults17,445
+
+TMObject.groovy,161
+package com.bna.psg.ontopia;ontopia1,0
+import net.ontopia.topicmaps.core.TMObjectIF;TMObjectIF3,30
+class TMObject 5,77
+  TMObject(TMObject::TMObject8,117
+
+Tolog.groovy,588
+package com.bna.psg.ontopia;ontopia1,0
+import com.bna.psg.ontopia.QueryResults;QueryResults3,30
+import net.ontopia.topicmaps.core.TopicMapIF;TopicMapIF7,243
+import net.ontopia.topicmaps.core.TopicMapReaderIF;TopicMapReaderIF8,289
+import net.ontopia.topicmaps.utils.ImportExportUtils;ImportExportUtils9,341
+import net.ontopia.topicmaps.query.utils.QueryUtils;QueryUtils10,395
+import net.ontopia.topicmaps.query.core.QueryResultIF;QueryResultIF11,448
+import net.ontopia.topicmaps.entry.XMLConfigSource;XMLConfigSource13,504
+class Tolog 23,727
+  Tolog(Tolog::Tolog43,1178
+
+Topic.groovy,328
+package com.bna.psg.ontopia;ontopia1,0
+import net.ontopia.topicmaps.core.TopicIF;TopicIF3,30
+import net.ontopia.topicmaps.core.AssociationRoleIF;AssociationRoleIF4,73
+import net.ontopia.infoset.core.LocatorIF;LocatorIF5,126
+import net.ontopia.infoset.core.Locators;Locators6,169
+class Topic implements TopicIF 12,310
+
+TopicMap.groovy,99
+package com.bna.psg.ontopia;ontopia1,0
+class TopicMap 5,68
+  TopicMap(TopicMap::TopicMap8,118
+
+TopicName.groovy,207
+package com.bna.psg.ontopia;ontopia1,0
+import net.ontopia.topicmaps.core.TopicNameIF;TopicNameIF3,30
+import net.ontopia.topicmaps.core.TopicIF;TopicIF4,77
+class TopicName implements TopicNameIF 9,183
